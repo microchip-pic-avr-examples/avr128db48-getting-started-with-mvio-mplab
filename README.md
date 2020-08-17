@@ -1,41 +1,53 @@
-<!-- Please do not change this logo with link -->
-[![MCHP](images/microchip.png)](https://www.microchip.com)
+<a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Update the title for avr128db48-getting-started-with-mvio-mplab here
+# Getting Started With Multi-Voltage Input/Output (MVIO) on AVR DB
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+A new feature introduced in the AVR® DB Family is the Multi-Voltage Input/Output(MVIO) peripheral. In this example, VDDIO2 supplies a different voltage level PORTC, than on the rest of the PORTs, which are supplied by VDD. It is possible to monitor this voltage level with the internal analog-to-digital converter (ADC) and also possible to get an interrupt when the voltage level for the MVIO, called VDDIO2, goes in and out of acceptable voltage range. 
 
+<a><img src="images/overview.png" alt="overview" width="800"/></a>
+
+These examples  how the Multi-Voltage I/O feature works on the AVR-DB family of microcontrollers. It
+covers the following use cases:
+
+* **Polling VDDIO2 Status**:
+  Checking if the VDDIO2 voltage is within acceptable range by reading the Status bit.
+* **Interrupt on VDDIO2 Status**:
+  Make use of the interrupt that occurs when the Status bit changes state.
+* **Measuring VDDIO2**:
+  Use the internal ADC to measure the VDDIO2 voltage.
+* **Blink a 3V LED with VDD at 1.8V**:
+  Basic example of MVIO blinking an LED with forward voltage higher than VDD.
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+* [TBxxxx - Getting Started With MVIO](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* [AVR128DB48 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
+* [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 
 ## Software Used
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
-
+* [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
+* Atmel Studio AVR-Dx_DFP version 1.2.56 or later
 ## Hardware Used
 
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
+* [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
+* One >15Ω resistor
+* One LED with forward voltage of ~3V
 
 ## Setup
 
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+* Connect the hardware together as seen in the schematic of the [application note](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
 
 ## Operation
+* Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
+* Download the zip file or clone the example to get the source code
+* Open the .atsln file with Atmel Studio
+* Right-click on the project you want to run and choose "Set as StartUp Project" 
+* Press *Start Without Debugging* (CTRL+ALT+F5) to run the application
 
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+## Changing Voltage
+Drag and drop one of the following files to the "Curiosity" disc on your computer:
+*VDD1V8.txt - Sets voltage to 1.8V
+*VDD3V3.txt - Sets voltage to 3.3V
 
-## Summary
-
-<!-- Summarize what the example has shown -->
+## Conclusion
+After going through this example, you should have a better understanding of how to set up the MVIO peripheral to utilize the internal level shifters to communicate with and drive external components.  
