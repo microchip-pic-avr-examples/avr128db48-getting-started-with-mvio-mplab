@@ -20,13 +20,17 @@ covers the following use cases:
 ## Related Documentation
 
 * [TBxxxx - Getting Started With MVIO](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
-* [AVR128DB48 Curiosity Nano User Guide](https://microchip.com/DSxxxxxxxxxx) <!-- TODO: Update link once assigned -->
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
 
 ## Software Used
 
-* [Atmel Studio](https://www.microchip.com/mplab/avr-support/atmel-studio-7) 7.0.2397 or later
-* Atmel Studio AVR-Dx_DFP version 1.2.56 or later
+## Software Used
+* [MPLAB® X IDE](https://www.microchip.com/mplab/mplab-x-ide) 5.40 or later
+* [MPLAB® XC8](https://www.microchip.com/mplab/compilers) 2.20 or later
+* MPLAB® X AVR-Dx_DFP version 1.4.75 or later
+* For the Atmel Studio version of these projects, please go to [this repository](https://github.com/microchip-pic-avr-examples/avr128db48-getting-started-with-mvio)
+
 ## Hardware Used
 
 * [AVR128DB48 Curiosity Nano](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/EV35L43A)
@@ -39,10 +43,10 @@ covers the following use cases:
 
 ## Operation
 * Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
-* Download the zip file or clone the example to get the source code
-* Open the .atsln file with Atmel Studio
-* Right-click on the project you want to run and choose "Set as StartUp Project" 
-* Press *Start Without Debugging* (CTRL+ALT+F5) to run the application
+* Clone the repository or download the zip to get the source code
+* Open the project folder you want to run with MPLAB X
+* Compile and run the code
+
 
 ## Changing Voltage
 Drag and drop one of the following files to the "Curiosity" disc on your computer:

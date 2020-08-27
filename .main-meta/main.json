@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.avr128db48-getting-started-with-mvio-mplab",
+        "name": "com.microchip.mcu8.studio.project.avr128db48-getting-started-with-mvio",
         "version": "1.0.0",
-        "displayName": "AVR128DB48 getting started with mvio mplab",
-        "projectName": "avr128db48-getting-started-with-mvio-mplab",
-        "shortDescription": "",
+        "displayName": "Getting Started With MVIO",
+        "projectName": "avr128db48-getting-started-with-mvio",
+        "shortDescription": "The AVR® DB family of microcontrollers is equipped with a configurable integrated level shifter. The Multi-Voltage I/O (MVIO) feature allows a subset of the I/O pins to be powered by a different I/O voltage domain VDDIO2. This eliminates the need of having external level shifters for communication or control of external components running on a different voltage level. Getting Started with Multi Voltage I/O show, together with these examples, how the MVIO is used on the AVR® DB family of microcontrollers ",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.40"
         },
         "compiler": [
-            {
-                "name": "XC8",
-                "semverRange": ""
-            }
-        ],
+			{
+				"name": "XC8",
+				"semverRange": "^2.20"
+			}
+		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.4.75"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -36,36 +36,48 @@
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
             [
-                "Peripherals",
-                ""
+                "Peripherals", "MVIO"
+            ],            			
+            [
+                "Peripherals", "VREF"
             ],
             [
-                "Peripherals",
-                ""
-            ]
+                "Peripherals", "ADC"
+            ],
+            [
+                "Peripherals", "INTCTRL"
+            ],
+            [
+                "Development Kit", "AVR128DB48 Curiosity Nano"
+            ]            			
         ],
         "peripherals": [
-            "",
-            ""
+            "MVIO","VREF","ADC","INTCTRL"
         ],
         "keywords": [
-            "",
-            ""
+            "getting started",
+            "multi voltage io",
+            "led blink",
+            "dual domain",
+            "multi power domain",
+            "power monitor",
+            "curiosity nano",
+            "VDDIO2",
+            "interrupt"	
         ],
-        "additionalData": {
-            "longDescription": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.fileRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "fileName": "./README.md",
-                    "mimeType": "text/markdown"
-                }
-            }
-        }
-    }
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./README.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
 }
