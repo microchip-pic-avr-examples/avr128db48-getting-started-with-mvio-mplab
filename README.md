@@ -19,7 +19,7 @@ covers the following use cases:
   Basic example of MVIO blinking an LED with forward voltage higher than VDD.
 ## Related Documentation
 
-* [TBxxxx - Getting Started With MVIO](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* [TB3287 - Getting Started With MVIO](https://microchip.com/DS90003287) 
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
 * AVR128DB48 Curiosity Nano User Guide (link will be added once available)
 
@@ -39,7 +39,7 @@ covers the following use cases:
 
 ## Setup
 
-* Connect the hardware together as seen in the schematic of the [application note](https://microchip.com/DSxxxxxxxxxx) <!--fill in DS number once it has been assigned-->
+* Connect the hardware together as seen in the schematic of the [application note](https://microchip.com/DS90003287) <!--fill in DS number once it has been assigned-->
 
 ## Operation
 * Connect the AVR128DB48 Curiosity Nano to a computer using a USB cable
