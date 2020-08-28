@@ -42,31 +42,23 @@
                 "Peripherals", "MVIO"
             ],            			
             [
-                "Peripherals", "VREF"
-            ],
-            [
                 "Peripherals", "ADC"
-            ],
-            [
-                "Peripherals", "INTCTRL"
             ],
             [
                 "Development Kit", "AVR128DB48 Curiosity Nano"
             ]            			
         ],
         "peripherals": [
-            "MVIO","VREF","ADC","INTCTRL"
+            "MVIO","ADC"
         ],
         "keywords": [
-            "getting started",
-            "multi voltage io",
-            "led blink",
-            "dual domain",
-            "multi power domain",
-            "power monitor",
-            "curiosity nano",
+            "Getting Started",
+            "Multi Voltage Io",
+            "Led Blink",
+            "Multi Power Domain",
+            "Power Monitor",
             "VDDIO2",
-            "interrupt"	
+            "Interrupt"	
         ],
 		"additionalData": {
 			"longDescription": {
