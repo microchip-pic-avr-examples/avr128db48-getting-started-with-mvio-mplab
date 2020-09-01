@@ -50,7 +50,7 @@ covers the following use cases:
 
 ## Changing Voltage
 Drag and drop one of the following files to the "Curiosity" disc on your computer:
-*VDD1V8.txt - Sets voltage to 1.8V
+* VDD1V8.txt - Sets voltage to 1.8V
 * VDD3V3.txt - Sets voltage to 3.3V
 
 ## Conclusion
