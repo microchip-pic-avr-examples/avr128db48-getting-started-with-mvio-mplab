@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Getting Started With MVIO",
         "projectName": "avr128db48-getting-started-with-mvio",
-        "shortDescription": "The AVR® DB family of microcontrollers is equipped with a configurable integrated level shifter. The Multi-Voltage I/O (MVIO) feature allows a subset of the I/O pins to be powered by a different I/O voltage domain VDDIO2. This eliminates the need of having external level shifters for communication or control of external components running on a different voltage level. Getting Started with Multi Voltage I/O show, together with these examples, how the MVIO is used on the AVR® DB family of microcontrollers ",
+        "shortDescription": "These MPLAB X bare metal examples in Getting Started with Multi Voltage I/O (MVIO) (TB3287) show how the MVIO is used on the AVR® DB family of microcontrollers.  The MVIO peripheral allows a subset of the I/O pins to be powered by a different I/O voltage domain VDDIO2, eliminating the need for external level shifters",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.40"
@@ -58,7 +58,10 @@
             "Multi Power Domain",
             "Power Monitor",
             "VDDIO2",
-            "Interrupt"	
+            "Interrupt",
+            "AVR-DB",
+            "AVRDB",
+            "avr128db48-getting-started-with-mvio"	
         ],
 		"additionalData": {
 			"longDescription": {
