@@ -6,7 +6,7 @@ A new feature introduced in the AVR® DB Family is the Multi-Voltage I/O (MVIO) 
 
 <a><img src="images/overview.png" alt="overview" width="800"/></a>
 
-These examples  how the Multi-Voltage I/O feature works on the AVR-DB family of microcontrollers. It
+These examples show how the Multi-Voltage I/O feature works on the AVR DB family of microcontrollers. It
 covers the following use cases:
 
 * **Polling VDDIO2 Status**:
