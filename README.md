@@ -21,7 +21,7 @@ covers the following use cases:
 
 * [TB3287 - Getting Started With MVIO](https://microchip.com/DS90003287) 
 * [AVR128DB48 Device Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
-* AVR128DB48 Curiosity Nano User Guide (link will be added once available)
+* [AVR128DB48 Curiosity Nano User Guide](https://www.microchip.com/DS50003037)
 
 ## Software Used
 
