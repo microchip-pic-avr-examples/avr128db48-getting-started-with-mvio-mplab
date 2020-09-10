@@ -3,10 +3,10 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.avr128db48-getting-started-with-mvio",
-        "version": "1.0.0",
+        "name": "com.microchip.mcu8.mplabx.project.avr128db48-getting-started-with-mvio-mplab",
+        "version": "1.0.1",
         "displayName": "Getting Started With MVIO",
-        "projectName": "avr128db48-getting-started-with-mvio",
+        "projectName": "avr128db48-getting-started-with-mvio-mplab",
         "shortDescription": "These MPLAB X bare metal examples in Getting Started with Multi Voltage I/O (MVIO) (TB3287) show how the MVIO is used on the AVR® DB family of microcontrollers.  The MVIO peripheral allows a subset of the I/O pins to be powered by a different I/O voltage domain VDDIO2, eliminating the need for external level shifters",
         "ide": {
             "name": "MPLAB X",
@@ -61,7 +61,7 @@
             "Interrupt",
             "AVR-DB",
             "AVRDB",
-            "avr128db48-getting-started-with-mvio"	
+            "getting-started-with-mvio"	
         ],
 		"additionalData": {
 			"longDescription": {
