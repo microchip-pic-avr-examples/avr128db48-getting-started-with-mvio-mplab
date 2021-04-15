@@ -4,20 +4,20 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128db48-getting-started-with-mvio-mplab",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "Getting Started With MVIO",
         "projectName": "avr128db48-getting-started-with-mvio-mplab",
         "shortDescription": "These MPLAB X bare metal examples in Getting Started with Multi Voltage I/O (MVIO) (TB3287) show how the MVIO is used on the AVR® DB family of microcontrollers.  The MVIO peripheral allows a subset of the I/O pins to be powered by a different I/O voltage domain VDDIO2, eliminating the need for external level shifters",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=5.40"
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "AVR-Dx_DFP",
             "semverRange": "^1.4.75"
@@ -39,17 +39,21 @@
         "author": "Microchip",
         "subcategories": [
             [
-                "Peripherals", "MVIO"
-            ],            			
-            [
-                "Peripherals", "ADC"
+                "Peripherals",
+                "MVIO"
             ],
             [
-                "Development Kit", "AVR128DB48 Curiosity Nano"
-            ]            			
+                "Peripherals",
+                "ADC"
+            ],
+            [
+                "Development Kit",
+                "AVR128DB48 Curiosity Nano"
+            ]
         ],
         "peripherals": [
-            "MVIO","ADC"
+            "MVIO",
+            "ADC"
         ],
         "keywords": [
             "Getting Started",
@@ -61,18 +65,18 @@
             "Interrupt",
             "AVR-DB",
             "AVRDB",
-            "getting-started-with-mvio"	
+            "getting-started-with-mvio"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
